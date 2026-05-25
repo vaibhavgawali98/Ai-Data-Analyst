@@ -79,25 +79,25 @@ ai-data-analyst/
 
 ## Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](ScreenShots/HomePage.png)
 
 ---
 
 ## Data Visualization
 
-![Visualization](screenshots/visualization.png)
+![Visualization](ScreenShots/DataVisulation.png)
 
 ---
 
 ## AI Insights
 
-![AI Insights](screenshots/ai_insights.png)
+![AI Insights](ScreenShots/AI_Insights.png)
 
 ---
 
 ## ML Prediction Module
 
-![ML Module](screenshots/ml_module.png)
+![ML Module](ScreenShots/ML_Prediction.png)
 
 ---
 
@@ -106,7 +106,7 @@ ai-data-analyst/
 Clone the repository:
 
 ```bash
-git clone <your-github-repo-link>
+git clone https://github.com/vaibhavgawali98/Ai-Data-Analyst.git
 ```
 
 Move into project folder:
