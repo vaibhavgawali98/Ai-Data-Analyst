@@ -5,6 +5,8 @@ AI Data Analyst Assistant is a Streamlit-based machine learning and data analysi
 The goal of this project was to build an interactive platform that simplifies basic data analysis workflows and makes dataset understanding easier for beginners and analysts.
 
 ---
+# Live Demo :
+  click : https://ai-data-analyst-skv5nuskpzdpdhahaggrcf.streamlit.app/
 
 # 🚀 Features
 
