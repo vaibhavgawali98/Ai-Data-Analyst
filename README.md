@@ -101,6 +101,12 @@ ai-data-analyst/
 
 ---
 
+## Confusion Matrix
+
+![Confusion Matrix](ScreenShots/Confusion_Matrix.png)
+
+---
+
 # ⚙️ Installation
 
 Clone the repository:
