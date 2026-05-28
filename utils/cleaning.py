@@ -1,6 +1,6 @@
-import pandas as pd
+import pandas as pd 
 
-
+#making function for getting missing values
 def get_missing_values(df):
 
     missing_values = df.isnull().sum()
@@ -17,7 +17,7 @@ def get_missing_values(df):
 
     return missing_df
 
-
+# for remove duplicates
 def remove_duplicates(df):
 
     df = df.drop_duplicates()
@@ -25,10 +25,7 @@ def remove_duplicates(df):
     return df
 
 
-# ------------------------------------------------
-# Fill Missing Values
-# ------------------------------------------------
-
+# filling missing values 
 def fill_missing_values(df, column, method):
 
     if method == "Mean":
