@@ -1,19 +1,17 @@
+# for generate insights
 def generate_basic_insights(df):
 
     insights = []
-
     # Missing Values
     missing = df.isnull().sum()
 
     for column, value in missing.items():
-
         if value > 0:
-
             insights.append(
                 f"Column '{column}' contains {value} missing values."
             )
 
-    # Duplicate Rows
+    # duplicate rows
     duplicates = df.duplicated().sum()
 
     if duplicates > 0:
@@ -22,7 +20,7 @@ def generate_basic_insights(df):
             f"Dataset contains {duplicates} duplicate rows."
         )
 
-    # Numerical Columns
+    # numerical Columns
     numerical_cols = df.select_dtypes(
         include=["int64", "float64"]
     ).columns
